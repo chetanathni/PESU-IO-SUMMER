@@ -1,0 +1,5 @@
+print("Hello there.")
+listA=input("Enter a few numbers, separated by commas. Press enter when you're done\n").split(",")
+print("List of the numbers is : ",listA)
+tupleA=tuple(listA)
+print("Tuple of the numbers is:",tupleA)
